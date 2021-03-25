@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "WannTodo",
+    "slug": "WannTodo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/IconLogo.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/IconLogo.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.kwang181.WannTodo"
+    },
+    "web": {
+      "favicon": "./assets/IconLogo.png"
+    }
+  }
+}
